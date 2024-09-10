@@ -1,0 +1,42 @@
+.welcome {
+    background-image: url(/images/output-onlinepngtools.png);
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700; /* Félkövér stílus a címsorhoz */
+    color: #371d0d; /* Válassz egy sötét színt, például sötétszürke */
+}
+
+.pt-12 {
+    padding-top: 2rem !important;
+}
+
+.products {
+    background-image: url(/images/lezergep_trans.png);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+}
+
+#prodcard {
+    height: 300px;
+    overflow: hidden;
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for both opacity and zoom */
+  }
+
+  /* Hover effect for opacity and zoom */
+  #prodcard:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+
+.termekek {
+    padding-top: 25px;
+}
+
+.mb-0 {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
